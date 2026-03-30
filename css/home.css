@@ -1,0 +1,67 @@
+/* NAVBAR */
+nav {
+  background-color: #ff6600;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+nav ul a:hover,
+nav ul a.active {
+  background-color: white;
+  color: #ff6600;
+}
+
+/* HERO */
+.hero {
+  background-color: #ff6600;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  background-color: white;
+  color: #ff6600;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero a:hover {
+  background-color: #333;
+  color: white;
+}
