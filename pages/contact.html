@@ -23,3 +23,59 @@
     <h1 style="font-size:2.5rem;"> Contact Us</h1>
     <p>Suggest your favorite recipe or give us feedback!</p>
   </section>
+
+  <!-- CONTACT FORM -->
+  <div class="contact-section">
+
+    <div class="contact-form">
+      <h2> Send a Message</h2>
+      <p>Your thoughts mean a lot to us!</p>
+
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="e.g. Rahul Sharma" />
+      </div>
+
+      <div class="form-group">
+        <label for="email"> Email Address</label>
+        <input type="email" id="email" placeholder="example@gmail.com" />
+      </div>
+
+      <div class="form-group">
+        <label for="topic"> Subject</label>
+        <select id="topic">
+          <option value="">-- Select a Subject --</option>
+          <option value="recipe">I want to suggest a new Recipe</option>
+          <option value="feedback">Feedback about the Website</option>
+          <option value="question">I have a question about a Recipe</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Write your message here..."></textarea>
+      </div>
+
+      <button class="submit-btn" onclick="handleSubmit()"> Send Message</button>
+
+      <div id="successMsg" style="display:none; margin-top:20px; background:#E8F5E9; border-radius:12px; padding:16px; color:#2E7D32; font-weight:600; text-align:center;">
+         Your message has been sent successfully! Thank you 
+      </div>
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div style="text-align:center; margin-top:30px;">
+      <p style="color:#888; margin-bottom:15px; font-size:0.9rem;">Follow us on social media</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"> Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="https://twitter.com/"> Twitter</a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
