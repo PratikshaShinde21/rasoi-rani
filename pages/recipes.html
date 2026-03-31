@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recipes - Rasoi Rani</title>
+  <title>Recipes</title>
   <link rel="stylesheet" href="./../css/style.css"/>
   <link rel="stylesheet" href="./../css/home.css">
   <link rel="stylesheet" href="./../css/recipes.css">
@@ -41,3 +41,146 @@
     <button class="filter-btn" onclick="filterRecipes('dessert', this)"> Desserts</button>
     <button class="filter-btn" onclick="filterRecipes('snack', this)"> Snacks</button>
   </div>
+
+  <!-- RECIPES GRID -->
+  <div class="cards-grid" id="recipesGrid">
+
+    <div class="card" data-cat="dinner">
+      <img src="./../images/biryani.jpg" alt="Chicken Biryani" class="card-img"/>
+      <span class="card-badge">Dinner</span>
+      <div class="card-body">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant basmati rice with spiced chicken - a classic Mughlai dish!</p>
+        <div class="card-meta">
+          <span>⏱️ 60 min</span>
+          <span>👨‍🍳 Medium</span>
+          <span>🌶️ Spicy</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="lunch">
+      <img src="./../images/dal-tadka.webp" alt="Dal Tadka" class="card-img"/>
+      <span class="card-badge">Lunch</span>
+      <div class="card-body">
+        <h3>Dal Tadka</h3>
+        <p>Homestyle lentil curry with a sizzling tempering - a daily staple!</p>
+        <div class="card-meta">
+          <span>⏱️ 30 min</span>
+          <span>👨‍🍳 Easy</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="breakfast">
+      <img src="./../images/puran-poli.jpg" alt="Puran Poli" class="card-img"/>
+      <span class="card-badge">Breakfast</span>
+      <div class="card-body">
+        <h3>Puran Poli</h3>
+        <p>Maharashtra's special sweet flatbread - a festive season favourite!</p>
+        <div class="card-meta">
+          <span>⏱️ 45 min</span>
+          <span>👨‍🍳 Medium</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="snack">
+      <img src="./../images/vada-pav.webp" alt="Vada Pav" class="card-img"/>
+      <span class="card-badge">Snack</span>
+      <div class="card-body">
+        <h3>Vada Pav</h3>
+        <p>Mumbai's favourite street food - spicy potato fritter in a bun!</p>
+        <div class="card-meta">
+          <span>⏱️ 25 min</span>
+          <span>👨‍🍳 Easy</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="dessert">
+      <img src="./../images/shrikhand.webp" alt="Shrikhand" class="card-img"/>
+      <span class="card-badge">Dessert</span>
+      <div class="card-body">
+        <h3>Shrikhand</h3>
+        <p>Chilled and sweet strained yogurt dessert - perfect for summer!</p>
+        <div class="card-meta">
+          <span>⏱️ 15 min</span>
+          <span>👨‍🍳 Easy</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="lunch">
+      <img src="./../images/misal-pav.webp" alt="Misal Pav" class="card-img"/>
+      <span class="card-badge">Lunch</span>
+      <div class="card-body">
+        <h3>Misal Pav</h3>
+        <p>Spicy sprouted bean curry served with bread - Kolhapuri style!</p>
+        <div class="card-meta">
+          <span>⏱️ 35 min</span>
+          <span>👨‍🍳 Medium</span>
+          <span>🌶️ Hot</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="breakfast">
+      <img src="./../images/shabudana.jpg" alt="Sabudana Khichdi" class="card-img"/>
+      <span class="card-badge">Breakfast</span>
+      <div class="card-body">
+        <h3>Sabudana Khichdi</h3>
+        <p>Sago pearls stir-fried with peanuts and spices - a fasting favourite!</p>
+        <div class="card-meta">
+          <span>⏱️ 20 min</span>
+          <span>👨‍🍳 Easy</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="dinner">
+      <img src="./../images/butter-chiken.webp" alt="Butter Chicken" class="card-img"/>
+      <span class="card-badge">Dinner</span>
+      <div class="card-body">
+        <h3>Butter Chicken</h3>
+        <p>Tender chicken in a creamy tomato gravy - restaurant style at home!</p>
+        <div class="card-meta">
+          <span>⏱️ 50 min</span>
+          <span>👨‍🍳 Medium</span>
+          <span>🌶️ Mild</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+    <div class="card" data-cat="snack">
+      <img src="./../images/onion-Bhaji.webp" alt="Onion Bhaji" class="card-img"/>
+      <span class="card-badge">Snack</span>
+      <div class="card-body">
+        <h3>Onion Bhaji</h3>
+        <p>Crispy onion fritters - the best snack for a rainy day!</p>
+        <div class="card-meta">
+          <span>⏱️ 15 min</span>
+          <span>👨‍🍳 Easy</span>
+          <span>🌿 Veg</span>
+        </div>
+        <a href="#" class="card-btn">Full Recipe →</a>
+      </div>
+    </div>
+
+  </div>
+   
+</body>
+</html>
